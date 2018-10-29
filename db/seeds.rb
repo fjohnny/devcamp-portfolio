@@ -28,11 +28,11 @@ puts "5 Skills created"
 
 9.times do |portfolio_item|
     Portfolio.create!(
-      title: "My Portfolio item #{portfolio_item}}",
+      title: "My Portfolio item #{portfolio_item}",
       subtitle: "My Greate Service #{portfolio_item}",
       body: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
       main_image: "https://via.placeholder.com/600x400",
-      thumb_image: "https://via.placeholder.com/300x200"
+      thumb_image: "https://via.placeholder.com/350x200"
     )
 
 end
